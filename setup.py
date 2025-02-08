@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='yourpackagename', # fill this
+    name='ds_tools', # fill this
     version='0.0.0',    
     description='A example Python package',
-    url='https://github.com/yourusername/yourpackagename', # fill this
-    author='yourname', # fill this if you want
-    author_email='none', # fill this if you want
+    url='https://github.com/aloysf/ds-tools', # fill this
+    author='aloysf', # fill this if you want
+    author_email='aloysf.web@icloud.com', # fill this if you want
     license='BSD 2-clause',
     packages=find_packages(where="src"),
     package_dir={"": "src"},
