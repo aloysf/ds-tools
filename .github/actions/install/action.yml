@@ -1,0 +1,10 @@
+name: 'Install ds-tools'
+description: 'Installs ds-tools package'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install package
+      run: |
+        pip install .
+      shell: bash
